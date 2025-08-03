@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsPortal</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">NewsPortal</div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search articles...">
+        </div>
+    </header>
+
+    <!-- Category Tabs -->
+    <section class="categories">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="news">News</button>
+        <button class="category-btn" data-category="technology">Technology</button>
+        <button class="category-btn" data-category="sports">Sports</button>
+    </section>
+
+    <!-- Featured Carousel -->
+    <section class="carousel">
+        <!-- Slides injected by JavaScript -->
+    </section>
+
+    <!-- Articles Grid -->
+    <section class="articles-grid" id="articles-container">
+        <!-- Articles injected by JavaScript -->
+    </section>
+
+    <!-- Admin Button -->
+    <button id="post-article-btn">Post New Article</button>
+
+    <!-- Admin Panel -->
+    <section class="admin-container">
+        <div class="admin-panel" id="admin-panel">
+            <h2>Create New Article</h2>
+            <form id="article-form">
+                <div class="form-group">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" required>
+                    <div class="error" id="title-error">Title is required</div>
+                </div>
+                <div class="form-group">
+                    <label for="summary">Summary</label>
+                    <textarea id="summary" rows="3" required></textarea>
+                    <div class="error" id="summary-error">Summary is required</div>
+                </div>
+                <div class="form-group">
+                    <label for="content">Full Content</label>
+                    <textarea id="content" rows="8" required></textarea>
+                    <div class="error" id="content-error">Content is required</div>
+                </div>
+                <div class="form-group">
+                    <label for="image">Image URL</label>
+                    <input type="text" id="image" placeholder="https://example.com/image.jpg">
+                    <div class="error" id="image-error">Please enter a valid URL</div>
+                </div>
+                <div class="form-group">
+                    <label for="category">Category</label>
+                    <select id="category" required>
+                        <option value="">Select a category</option>
+                        <option value="news">News</option>
+                        <option value="technology">Technology</option>
+                        <option value="sports">Sports</option>
+                    </select>
+                    <div class="error" id="category-error">Category is required</div>
+                </div>
+                <button type="submit">Publish Article</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 NewsPortal. All rights reserved.</p>
+    </footer>
+
+    <!-- Article Modal -->
+    <div class="modal-overlay" id="article-modal">
+        <div class="modal">
+            <button class="close-modal" id="close-modal">&times;</button>
+            <div class="modal-content" id="modal-content">
+                <!-- Article content injected by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
