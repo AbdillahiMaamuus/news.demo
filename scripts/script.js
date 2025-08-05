@@ -14,7 +14,7 @@ const defaultArticles = [
                 Israa'iil oo gacanta ku haysa gelitaanka dhammaan sahayda Qasa, ayaa sheegtay in aanay jirin wax xannibaad ah oo ku aaddan in gargaarku soo galo dhulkaas, waxaanay Xamaas ku eedaysay nafaqo-xumo kasta oo jirta.
 
                 Jimcihii, ra'iisul wasaaraha UK, Sir Keir Starmer ayaa soo jeediyay in UK ay door ka qaadan doonto sidii gargaarka loogu daad gurayn lahaa Qasa ka dib markii in ka badan saddex meelood meel xubnaha baarlamaanka ay saxiixeen warqad ay ugu baaqayaan dowladda inay aqoonsato dowlad Falastiin ah.`,
-        image: "images/image3.webp",
+        image: "images/image3.jpg",
         category: "news",
         date: "2025-7-05"
     },
@@ -33,7 +33,7 @@ const defaultArticles = [
                 Kulankan ayaa ah mid ka mid ah kulamada ay yeesheen madaxda labada dal tan iyo markii Madaxweyne Xasan Sheekh Maxamuud ku guuleystey doorashadii Madaxtooyada. Waxaana laga wada filayaa inay ka dhaliilan doonaan horumarinta xiriirka labada dal iyo sidii loo xoojin lahaa iskaashiga dhinacyada kala duwan.
 
                 Jabuuti ayaa ah mid ka mid ah dalalka IGADka, waxaana ay taageero weyn u fidaysay Soomaaliya dhinacyada amniga, maamulka iyo horumarinta.`,
-        image: "images/image1.webp",
+        image: "images/image1.jpg",
         category: "news",
         date: "2025-7-1"
     },
@@ -55,7 +55,7 @@ const defaultArticles = [
 
                     Shirkadda Apple waxay sheegtay in iPhone 16e uu diyaar ahaan islamarkana uu suuqyada soo gali doono 21 Febraayo, 2025.
 
-                    <img src="images/image8.webp" alt="iPhone 16e" style="width: 100%; height: auto;">
+                    <img src="images/image8.jpg" alt="iPhone 16e" style="width: 100%; height: auto;">
                     Waxaa taleefoonkan noocan cusub laga heli doonaa marka hore 59 wadan oo caalamka daafihiisa ku kala yaalla.
 
                     Qiimaha la iibin doono taleefoonkan iPhone 16e dalka UK waa $759, taas oo $253 ka yar iPhone 16, laakiin in ka badan laba-laab qiimihii iPhone SE uu ku soo baxay markii ugu horeysay sanadkii 2016.
@@ -64,7 +64,7 @@ const defaultArticles = [
 
                     "Tallaabadan waa in ay gacan ka geysato dardargelinta qaadashada taleefoonka, gaar ahaan Apple oo si xooggan u soo gashay dhinaca garaadka macmalka ah iyada oo loo marayo (Apple Intelligence)," ayuu intaa raaciyay.
                     `,
-        image: "images/image7.webp",
+        image: "images/image7.jpg",
         category: "technology",
         date: "2025-6-12"
     },
@@ -80,13 +80,13 @@ const defaultArticles = [
 
                     " Way wanaagsan tahay in la arko Instagram oo keenaya isbeddelladan ka hor inta uusan sharcigu billaabin inuu qabto, waxaana ku cadaadin doonnaa shirkadaha inay wax badan sameeyaan si ay u ilaaliyaan oo ay u garab istaagaan isticmaalayaashooda," ayaa lagu yiri bayaan ay soo saartay hay’addu.
                     <h1 style="bold">Sida loo isticmaalo</h1>
-                    <img src="images/image2.webp" alt="Instagram Reset Feature" style="width: 100%; height: auto; border-radius: 8px;">
+                    <img src="images/image2.jpg" alt="Instagram Reset Feature" style="width: 100%; height: auto; border-radius: 8px;">
                     Meta - oo leh barta Instagram-ka - ayaa sheegaysa in nidaamka cusub uu noqon doonomid uu heli doono qof kasta oo ay ku jiraan caruurta aan qaangaarin, waxa uuna ka caawin doonaa dadka inay dib u nidaamsadaan waxyaalaha ay doonayaan in arkaan "iyaga oo raacay dhowr tallaabo oo kaliya"
 
                     "Waxaan rabnaa inaan hubinno in qof walba oo ku jira Instagram - gaar ahaan dhalinyarada - ay helayaan wax u qalma, ammaan ah, oo faa’ido leh, ayna dareemaan waqtiga ay ku bixinayaan Instagram inuu yahay mid qiimo leh," Meta ayaa ku tiri sidaas qoraal ay arrintaan ku baahineysay.
 
                     Isticmaalayaasha doonaya inay dib u cusbooneysiiyaan hadba xogta ay ku arkayaan darbigooda ayaa waxay awood u yeelan doonaan inay "iyagu doortaan waxa ay ku arki doonaan" shaashadda, iyaga oo qori doona waxay ay rabaan qaybta "xoga aad doorbideyso".`,
-        image: "images/image7.webp",
+        image: "images/image7.jpg",
         category: "technology",
         date: "2025-10-08"
     },
@@ -102,8 +102,8 @@ const defaultArticles = [
 
                     Kuwo cusub iyo ruug-caddaayaal kasoo jeeda Waqooyiga Afrikaba, BBC Sport Africa ayaa soo bandhigtay lix ka mid ah ciyaartoyda aadka indhaha loogu hayo inta uu socdo tartankan.
                     <h1 style="font-weight: bold">Asisat Oshoala (Nigeria)</h1>
-                    <img src="images/image5.webp" alt="Asisat Oshoala" style="width: 100%; height: auto;">`,
-        image: "images/image4.webp",
+                    <img src="images/image5.jpg" alt="Asisat Oshoala" style="width: 100%; height: auto;">`,
+        image: "images/image4.jpg",
         category: "sports",
         date: "2025-10-18"
     },
@@ -115,11 +115,11 @@ const defaultArticles = [
 
                     38 jirkan ayaa lagu wadaa in aanu si dhib yar ciyaaraha uga fadhiisan iyada oo laga yaabo in uu u dheelo qarankiisa Koobka Adduunka ee sannadka 2026-ka.
 
-                    "PSG waxa ay ku jirtaa qaab ciyaareed heer sare ah. Dad badan ayaa tigidhada u goosta si ay u daawadaan Messi oo markan da'da 40-ka u sii siqaya," ayuu yidhi madaxa Inter Miami Javier Mascherano, kaddib ciyaar ay daawadeen 65,574 oo taageerayaal ah.
+                   "PSG waxa ay ku jirtaa qaab ciyaareed heer sare ah. Dad badan ayaa tigidhada u goosta si ay u daawadaan Messi oo markan da'da 40-ka u sii siqaya," ayuu yidhi madaxa Inter Miami Javier Mascherano, kaddib ciyaar ay daawadeen 65,574 oo taageerayaal ah.
 
                     Daafaca kooxda PSG ee Lucas Beraldo ayaa isna sifeeyay oo yidhi "Leo waa shaqsiyad gaar ah, in aan la ciyaaryo isaga waxa ay ahayd mid cajiib ah, waxa aan ahaa ilmo yar oo ku barbaaray daawashada xirfadiisa mucjisada ah."
-                    <img src="images/image10.webp" alt="Lionel Messi" style="width: 100%; height: auto;">`, 
-      image: "images/image10.webp",
+                    <img src="images/image10.jpg" alt="Lionel Messi" style="width: 100%; height: auto;">`, 
+      image: "images/image10.jpg",
         category: "sports",
         date: "2023-10-15"
     }
